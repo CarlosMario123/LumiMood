@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">psicologic</string>
+    <string name="default_notification_channel_id">general_channel</string>
+
+
+    <color name="colorPrimary">#7E57C2</color>
+</resources>

@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "1093527544285",
+    "project_id": "woven-patrol-451919-m8",
+    "storage_bucket": "woven-patrol-451919-m8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093527544285:android:a15b0ef440eefbbcd01634",
+        "android_client_info": {
+          "package_name": "com.company.push"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB0jfyKebWTZi-_DOVK8yqUsx1s8VHD8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093527544285:android:4cf8d523312381ccd01634",
+        "android_client_info": {
+          "package_name": "com.example.psicologic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB0jfyKebWTZi-_DOVK8yqUsx1s8VHD8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093527544285:android:adaf7f183abf64f7d01634",
+        "android_client_info": {
+          "package_name": "com.example.push"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB0jfyKebWTZi-_DOVK8yqUsx1s8VHD8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
