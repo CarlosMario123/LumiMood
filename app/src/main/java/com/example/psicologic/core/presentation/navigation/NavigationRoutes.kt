@@ -16,9 +16,13 @@ sealed class NavigationRoutes(val route: String) {
     }
     object Recommendations : NavigationRoutes("recommendations")
 
+    // Nueva ruta para la pantalla de relajación
+    object RelaxationPlayer : NavigationRoutes("relaxation_player")
+
     // Bottom navigation tabs
     object EmotionsTab : NavigationRoutes("emotions_tab")
     object QuestionsTab : NavigationRoutes("questions_tab")
     object AnswersTab : NavigationRoutes("answers_tab")
     object RecommendationsTab : NavigationRoutes("recommendations_tab")
+    object RelaxationTab : NavigationRoutes("relaxation_tab") // Nuevo tab para relajación
 }

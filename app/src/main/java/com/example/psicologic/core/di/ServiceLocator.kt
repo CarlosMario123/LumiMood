@@ -31,6 +31,9 @@ import com.example.psicologic.feature_recommendations.domain.usecase.AddRecommen
 import com.example.psicologic.feature_recommendations.domain.usecase.GetRecommendationsUseCase
 
 import com.example.psicologic.feature_recommendations.presentation.recommendations.RecommendationsViewModel
+import com.example.psicologic.feature_relaxation_sounds.data.local.RelaxationDatabase
+import com.example.psicologic.feature_relaxation_sounds.data.repository.RelaxationRepositoryImpl
+import com.example.psicologic.feature_relaxation_sounds.domain.repository.RelaxationRepository
 
 /**
  * ServiceLocator para la inyección de dependencias manual
@@ -191,6 +194,11 @@ object ServiceLocator {
         return RecommendationsViewModel(
             getRecommendationsUseCase = provideGetRecommendationsUseCase(),
             addRecommendationUseCase = provideAddRecommendationUseCase()
+        )
+    }
+    fun provideRelaxationRepository(context: Context): RelaxationRepository {
+        return RelaxationRepositoryImpl(
+            dao = RelaxationDatabase.getDatabase(context).relaxationSoundDao()
         )
     }
 }

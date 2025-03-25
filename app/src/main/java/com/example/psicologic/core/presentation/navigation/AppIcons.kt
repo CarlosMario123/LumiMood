@@ -7,6 +7,7 @@ import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.HourglassTop
 import androidx.compose.material.icons.filled.Lightbulb
+import androidx.compose.material.icons.filled.MusicNote
 import androidx.compose.material.icons.filled.Mood
 import androidx.compose.material.icons.filled.QuestionAnswer
 import androidx.compose.material.icons.filled.SentimentDissatisfied
@@ -34,6 +35,7 @@ object AppIcons {
         val Questions = Icons.Filled.QuestionAnswer
         val Answers = Icons.Rounded.LiveHelp
         val Recommendations = Icons.Filled.Lightbulb
+        val Relaxation = Icons.Filled.Spa  // Nuevo ícono para la sección de relajación
     }
 
 
@@ -78,5 +80,6 @@ object AppIcons {
         val Insight = Icons.Rounded.Insights
         val SmartTip = Icons.Outlined.Lightbulb
         val Recommend = Icons.Rounded.Recommend
+        val Music = Icons.Filled.MusicNote  // Icono para música/relajación
     }
 }
